@@ -1,5 +1,5 @@
 /* Service worker: casca offline. Troque VERSAO a cada publicação. */
-const VERSAO = "harmonico-v1";
+const VERSAO = "harmonico-v2";
 const CASCA = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {
